@@ -1,0 +1,31 @@
+<DOCTYPE! html>
+<html lang="en" ng-app="foodieApp">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compaible" content="IE-Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Foodie</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	<link rel="stylesheet" href="main.css">
+	<script src="js/angular.min.js"></script>
+  <!-- this is required for routing in angularjs -->
+  <script src="https://code.angularjs.org/1.6.5/angular-route.js"></script>
+  <style>
+	input.ng-invalid.ng-touched {
+		border:1px solid red;
+	}
+	input.ng-valid{
+		border:1px solid green;
+	}
+	</style>
+</head>
+
+<body id="app">
+     <div ng-view></div>
+     <script src="js/jquery.js"></script>
+     <!-- <script src="https://npmcdn.com/tether@1.2.4/dist/js/tether.min.js"></script> -->
+     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+     <script src="main.js"></script>
+
+  </body>
+</html>
